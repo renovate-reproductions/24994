@@ -3,18 +3,18 @@ module github.com/tuihub/librarian
 go 1.20
 
 require (
-	entgo.io/ent v0.12.3
+	entgo.io/ent v0.12.4
 	github.com/PuerkitoBio/goquery v1.8.1
-	github.com/ThreeDotsLabs/watermill v1.3.3
+	github.com/ThreeDotsLabs/watermill v1.3.5
 	github.com/ThreeDotsLabs/watermill-sql/v2 v2.0.0
 	github.com/Xuanwo/go-locale v1.1.0
-	github.com/blevesearch/bleve/v2 v2.3.9
-	github.com/bufbuild/protovalidate-go v0.3.1
+	github.com/blevesearch/bleve/v2 v2.3.10
+	github.com/bufbuild/protovalidate-go v0.3.2
 	github.com/cayleygraph/cayley v0.7.7
 	github.com/cayleygraph/quad v1.2.5
 	github.com/dgraph-io/ristretto v0.1.1
 	github.com/fullstorydev/grpchan v1.1.1
-	github.com/go-co-op/gocron v1.32.1
+	github.com/go-co-op/gocron v1.35.0
 	github.com/go-kratos/kratos/contrib/registry/consul/v2 v2.0.0-20230830131453-6c026bce56a9
 	github.com/go-kratos/kratos/v2 v2.7.0
 	github.com/gocolly/colly/v2 v2.1.1-0.20230620150846-a6e3d81fe6b7
@@ -22,23 +22,23 @@ require (
 	github.com/google/go-cmp v0.5.9
 	github.com/google/go-querystring v1.1.0
 	github.com/google/wire v0.5.0
-	github.com/hashicorp/consul/api v1.24.0
+	github.com/hashicorp/consul/api v1.25.1
 	github.com/improbable-eng/grpc-web v0.15.0
-	github.com/johannesboyne/gofakes3 v0.0.0-20230506070712-04da935ef877
+	github.com/johannesboyne/gofakes3 f005f5cc03aa
 	github.com/lib/pq v1.10.9
 	github.com/mattn/go-sqlite3 v1.14.17
-	github.com/meilisearch/meilisearch-go v0.25.0
+	github.com/meilisearch/meilisearch-go v0.25.1
 	github.com/minio/minio-go/v7 v7.0.63
 	github.com/mmcdole/gofeed v1.2.1
 	github.com/nikoksr/notify v0.41.0
-	github.com/redis/go-redis/v9 v9.1.0
+	github.com/redis/go-redis/v9 v9.2.1
 	github.com/sony/sonyflake v1.2.0
 	github.com/stretchr/testify v1.8.4
 	github.com/tuihub/protos v0.2.39
 	github.com/zhihu/norm v0.1.11
-	golang.org/x/crypto v0.12.0
-	golang.org/x/exp v0.0.0-20230817173708-d852ddb80c63
-	google.golang.org/grpc v1.57.0
+	golang.org/x/crypto v0.13.0
+	golang.org/x/exp 921286631fa9
+	google.golang.org/grpc v1.58.2
 	google.golang.org/protobuf v1.31.0
 )
 
@@ -185,7 +185,7 @@ require (
 	go.opentelemetry.io/otel/trace v1.16.0 // indirect
 	go.uber.org/atomic v1.11.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
-	go.uber.org/zap v1.25.0
+	go.uber.org/zap v1.26.0
 	golang.org/x/net v0.14.0 // indirect
 	golang.org/x/sync v0.3.0 // indirect
 	golang.org/x/sys v0.11.0 // indirect
